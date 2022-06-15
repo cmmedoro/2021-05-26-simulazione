@@ -1,6 +1,11 @@
 package it.polito.tdp.yelp.model;
 
 public class Business {
+	@Override
+	public String toString() {
+		return "" + businessName + "";
+	}
+
 	private String businessId;
 	private String fullAddress;
 	private String active;
